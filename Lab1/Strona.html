@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Zadanie Laboratorium1</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="Zadanie domowe Laboratorium 1 TI">
+    <meta name="keywords" content="html tabela divy semantyka css">
+    <meta name="author" content="Marcin Urbanowicz">
+
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo"><h2>Zadanie domowe - Laboratorium1</h2></div>
+        </header>
+        <article>
+        <div id="left" class="content">
+            <table id="studenci">
+                <thead>
+                    <tr>
+                        <th id="naglowek" colspan="5">Oceny studentów</th>
+                    </tr>
+                    <tr>
+                        <th>Lp.</th>
+                        <th>Imie</th>
+                        <th>Nazwisko</th>
+                        <th>Grupa</th>
+                        <th>Ocena</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Adam</td>
+                        <td>Abacki</td>
+                        <td>I</td>
+                        <td>3</td>
+                    </tr>
+                        <tr class="inny">
+                            <td>2</td>
+                            <td>Joanna</td>
+                            <td>Borys</td>
+                            <td>II</td>
+                            <td>3.5</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Joachim</td>
+                            <td>Głowacki</td>
+                            <td>II</td>
+                            <td>4</td>
+                        </tr>
+                        <tr class="inny">
+                            <td>4</td>
+                            <td>Marek</td>
+                            <td>Gałczyński</td>
+                            <td>I</td>
+                            <td>5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="5">Oceny średnie w grupach</th>
+                        </tr>
+                        <tr>
+                            <td colspan="3">1</td>
+                            <td>I</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">2</td>
+                            <td>II</td>
+                            <td>3.5</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div id="right" class="content">
+                <h2>Obrazek</h2>
+                <img src="kotek.jpg" alt="Kotek" id="obrazek">
+            </div>
+        </article>
+    </div>
+</body>
+</html>
