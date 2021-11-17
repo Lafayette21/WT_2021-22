@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<!DOCTYPE uczelnia SYSTEM "plik.dtd">
+<uczelnia>
+  <wydzial>
+    <nazwa>Fizyki i Informatyki Stosowanej</nazwa>
+    <kierunek>
+      <nazwa>Informatyka Stosowana</nazwa>
+      <student>
+        <imie>Marcin</imie>
+        <nazwisko>Urbanowicz</nazwisko>
+        <nralbumu>123</nralbumu>
+      </student>
+      <student>
+        <imie>Robert</imie>
+        <nazwisko>Głowacki</nazwisko>
+        <nralbumu>245</nralbumu>
+      </student>
+      <student>
+        <imie>Jan</imie>
+        <nazwisko>Niezbedny</nazwisko>
+        <nralbumu>150</nralbumu>
+      </student>
+    </kierunek>
+    <kierunek>
+      <nazwa>Fizyka Techniczna</nazwa>
+      <student>
+        <imie>Adam</imie>
+        <nazwisko>Słonko</nazwisko>
+        <nralbumu>223</nralbumu>
+      </student>
+      <student>
+        <imie>Robert</imie>
+        <nazwisko>Romanowski</nazwisko>
+        <nralbumu>249</nralbumu>
+      </student>
+      <student>
+        <imie>Michał</imie>
+        <nazwisko>Pieróg</nazwisko>
+        <nralbumu>370</nralbumu>
+      </student>
+    </kierunek>
+  </wydzial>
+</uczelnia>

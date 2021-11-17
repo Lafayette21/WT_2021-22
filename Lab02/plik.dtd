@@ -1,0 +1,8 @@
+<!ELEMENT uczelnia (wydzial+)>
+<!ELEMENT wydzial (nazwa, kierunek+)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT kierunek (nazwa,student+)>
+<!ELEMENT student (imie+,nazwisko,nralbumu)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT nralbumu (#PCDATA)>
