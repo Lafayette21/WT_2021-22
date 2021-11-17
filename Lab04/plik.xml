@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="arkusz.xsl"?>
+<uczelnia>
+  <wydzial>
+    <nazwaW>Fizyki i Informatyki Stosowanej</nazwaW>
+    <kierunek>
+      <nazwa>Informatyka Stosowana</nazwa>
+      <student>
+        <imie>Marcin</imie>
+        <nazwisko>Urbanowicz</nazwisko>
+        <nralbumu>123</nralbumu>
+      </student>
+      <student>
+        <imie>Robert</imie>
+        <nazwisko>Glowacki</nazwisko>
+        <nralbumu>245</nralbumu>
+      </student>
+      <student>
+        <imie>Jan</imie>
+        <nazwisko>Niezbedny</nazwisko>
+        <nralbumu>150</nralbumu>
+      </student>
+    </kierunek>
+    <kierunek>
+      <nazwa>Fizyka Techniczna</nazwa>
+      <student>
+        <imie>Adam</imie>
+        <nazwisko>Slonko</nazwisko>
+        <nralbumu>223</nralbumu>
+      </student>
+      <student>
+        <imie>Robert</imie>
+        <nazwisko>Romanowski</nazwisko>
+        <nralbumu>249</nralbumu>
+      </student>
+      <student>
+        <imie>Michal</imie>
+        <nazwisko>Pierog</nazwisko>
+        <nralbumu>370</nralbumu>
+      </student>
+    </kierunek>-->
+  </wydzial>
+  <wydzial>
+    <nazwaW>Inzynierii metali i Informatyki Przemyslowej</nazwaW>
+    <kierunek>
+      <nazwa>Metalurgia</nazwa>
+      <student>
+        <imie>Roman</imie>
+        <nazwisko>Torba</nazwisko>
+        <nralbumu>234</nralbumu>
+      </student>
+      <student>
+        <imie>Tomasz</imie>
+        <nazwisko>Gawel</nazwisko>
+        <nralbumu>164</nralbumu>
+      </student>
+    </kierunek>
+    <kierunek>
+      <nazwa>Informatyka przemyslowa</nazwa>
+      <student>
+        <imie>Robert</imie>
+        <nazwisko>Wiech</nazwisko>
+        <nralbumu>124</nralbumu>
+      </student>
+      <student>
+        <imie>Adrian</imie>
+        <nazwisko>Nowak</nazwisko>
+        <nralbumu>328</nralbumu>
+      </student>
+    </kierunek>
+  </wydzial>
+</uczelnia>

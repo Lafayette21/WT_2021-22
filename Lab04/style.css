@@ -1,0 +1,50 @@
+body{
+  background-color: Beige;
+  font-family: "Times new Roman";
+  font-size: 15px;
+}
+
+h1{
+  color: MediumOrchid;
+  text-align: center;
+  font-size: 35px;
+}
+
+table{
+  text-align: center;
+  border: 1px solid black;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+tr{
+  border: 1px solid black;
+  padding 10px;
+}
+
+th{
+  border: 1px solid black;
+}
+
+.faculty{
+  background-color: MediumSeaGreen;
+  font-size: 18px;
+}
+
+.field{
+  background-color:  CadetBlue;
+  font-size: 17px;
+}
+.header{
+  background-color: MediumPurple;
+  font-size: 16px;
+}
+.data{
+  background-color: LightBlue;
+}
+
+td{
+  border: 1px solid black;
+}
