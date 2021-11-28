@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cwiczenie 2</title>
+    <script src="zad2.js"></script>
+</head>
+<body>
+    <form name="form1" onsubmit="return update()">
+    <p>Nazwisko*</p>
+    <input type="text" size="20" name="nazwisko"/><br/>
+    <p>Imie*</p>
+    <input type="text" size="20" name="imie"/><br/>
+    <p>Adres e-mail*</p>
+    <input type="text" size="20" name="email"/><br/>
+    <p>Rok studiów*</p>
+    <select name="rok" size="6">
+        <option selected>Wybierz rok</option>
+        <option value="1">Rok 1</option>
+        <option value="2">Rok 2</option>
+        <option value="3">Rok 3</option>
+        <option value="4">Rok 4</option>
+        <option value="5">Rok 5</option>
+    </select> <br/>
+    <p>Uwagi</p>
+    <textarea name="uwagi" rows="3" cols="25"></textarea> <br/>
+    <input type="submit" name="B1" value="Submit"/>
+    <div style="position:absolute;left:200px;top:80px; font-size: 20px;" id="test"></div>
+    </form>
+</body>
+</html>
