@@ -1,0 +1,35 @@
+#mainmenu{
+    margin-left: auto;
+    margin-right: auto;
+}
+#tabela{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+#tabela > tr{
+    width: 50px;
+    border: 1px solid black;
+}
+#container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width: 400px;
+}
+#arkusz{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  padding: 20px;
+}
+#arkusz > tr{
+  width: 60px;
+  border: 1px solid black;
+  padding: 5px;
+}
+#arkusz > td{
+  width: 30px;
+  border: 1px solid black;
+}
